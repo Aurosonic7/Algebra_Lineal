@@ -3,7 +3,7 @@ Christian Vicente Juárez, Sistemas Aurosonic, 18 de Febrero del 2022,
 Universidad La Salle Oaxaca, Ingenieria en Software y Sistemas Computacionales, 
 Algebra Lineal 2 "A",
 Practica 1, Solución de un sistema de ecuaciones 3x3 por el método de Crammer.
-v1.0.0
+v1.0.1
 */
 #include<stdio.h>
 int main(){
@@ -33,8 +33,8 @@ int main(){
  printf("-------------------------------------------------------------------------------");
  printf("\nLa matriz de Ax es la siguiente\n");
  for(int i = 0; i < 3 ; i++){
-  for(int j = 1 ; j < 4 ; j++){
-   printf("%d ",A[j][i]);
+  for(int j = 0 ; j < 4 ; j++){
+   (j!=0) ? printf("%d ",A[j][i]) : printf("");
   }
   printf("\n");
  }
@@ -43,9 +43,7 @@ int main(){
  printf("\nLa matriz de Ay es la siguiente\n");
  for(int i = 0; i < 3; i++){
   for(int j = 0; j < 4; j++){
-   if(j != 1){
-    printf("%d ",A[j][i]);
-   }
+   (j != 1) ? printf("%d ",A[j][i]) : printf("");
   }
   printf("\n");
  }
@@ -54,9 +52,7 @@ int main(){
  printf("\nLa matriz de Az es la siguiente\n");
  for(int i = 0; i < 3; i++){
   for(int j = 0; j < 4; j++){
-   if(j != 2){
-    printf("%d ",A[j][i]);
-   }
+   (j != 2) ? printf("%d ",A[j][i]) : printf("");
   }
   printf("\n");
  }
