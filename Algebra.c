@@ -1,5 +1,5 @@
 /*
-Christian Vicente Juárez, Sistemas Aurosonic, 18 de Febrero del 2022,
+Christian Vicente Juárez, Sistemas Aurosonic, 20 de Febrero del 2022,
 Universidad La Salle Oaxaca, Ingenieria en Software y Sistemas Computacionales, 
 Algebra Lineal 2 "A",
 Practica 1, Solución de un sistema de ecuaciones 3x3 por el método de Crammer.
